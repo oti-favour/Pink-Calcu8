@@ -4,12 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
 }
 body{
     height: 100vh;
     display:flex;
     align-items: center;
     justify-content: center;
-    background: rgb(215, 181, 210);
+    background: #FFA6C9 !important;
 }
+ .container{
+    position: relative !important;
+    max-width: 300px !important;
+    border-radius: 12px;
+    background-color: #d2306e;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.05) !important;
+ }
