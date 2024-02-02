@@ -24,7 +24,7 @@ body{
     display:grid !important;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
-   
+ 
 
  }
  .display {
@@ -32,6 +32,20 @@ body{
     padding: 5px;
     margin-bottom: 10px;
     font-size: 1.5em;
-    background-color: #f7b1c6; /* Medium Pink */
-    color: #fff;
+    background-color: #f7b1c6;
+    font-size: 25px;
+    text-align: right;
+    outline: none;
+}
+.buttons button{
+    border-radius: 6px;
+    border:none;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.operator{
+    color: #ff5096;
+    cursor: pointer;
 }
